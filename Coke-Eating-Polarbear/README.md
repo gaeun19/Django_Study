@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Django_Study
-=======
 # Django_Study
 
 ### Environment
@@ -30,4 +27,3 @@ back-end: Django
 
 ### 작업방식
 본인 폴더에서 작업 및 PR
->>>>>>> cb87908d49380175211d1a5576e9af5043d3bed2
