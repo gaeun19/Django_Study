@@ -17,7 +17,10 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
+from blog import views  # blog 앱의 views를 가져옴
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path('', views.index, name='index'), # 메인 페이지로 index 뷰를 연결
+    path('portfolio-details.html', views.portfolio, name='portfolio'),
 ]
