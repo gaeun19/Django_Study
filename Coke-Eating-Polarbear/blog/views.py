@@ -1,3 +1,10 @@
 from django.shortcuts import render
 
-# Create your views here.
+def main(request):
+    return render(request, 'main.html')
+
+def service_details(request):
+    return render(request, 'service-details.html')
+
+def portfolio_details(request):
+    return render(request, 'portfolio-details.html')
