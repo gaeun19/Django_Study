@@ -1,0 +1,10 @@
+asgiref==3.8.1
+bootstrap4==0.1.0
+Django==5.1.1
+mysqlclient==2.2.4
+pip==24.2
+python-dotenv==1.0.1
+setuptools==75.1.0
+sqlparse==0.5.1
+tzdata==2024.2
+wheel==0.44.0
