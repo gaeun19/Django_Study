@@ -10,6 +10,7 @@ urlpatterns = [
     # name= 개발자가 이 주소를 부를 이름
     path('', views.index, name='index'), # localhost:8000/blog 경로, 경로를 호출하면 실행할 함수의 위치
     path('portfolio-details.html', views.portfolio_details, name='portfolio_details'),
+    
 ]
 
 
